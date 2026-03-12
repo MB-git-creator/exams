@@ -142,76 +142,28 @@ body {
   font-size: 13px;
   line-height: 1.6;
 }
-.hero-image-area {
-  width: 52%;
-  height: 520px;
+
+.right {
+  width: 53%;
+  height: 560px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.window-lines::before,
-.window-lines::after {
-  content: "";
-  position: absolute;
-  background: #ece7e2;
 }
 
-.window-lines::before {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background:
-    linear-gradient(to right, transparent 0 18%, #ebe5df 18% 19%, transparent 19% 49%, #ebe5df 49% 50%, transparent 50% 80%, #ebe5df 80% 81%, transparent 81% 100%),
-    linear-gradient(to bottom, transparent 0 18%, #ebe5df 18% 19%, transparent 19% 48%, #ebe5df 48% 49%, transparent 49% 78%, #ebe5df 78% 79%, transparent 79% 100%);
-  opacity: 1;
-  z-index: 0;
+.plane-bg {
+  position: absolute;
+  right: -60px;
+  top: -20px;
+  width: 760px;
+  max-width: none;
+  z-index: 1;
 }
 
-.window-lines::after {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background: #f1ece7;
-  right: -40px;
-  top: 0;
-  z-index: 0;
-}
-.plane-img {
+.traveler-img {
   position: absolute;
-  width: 420px;
-  right: 30px;
-  top: 90px;
-  z-index: 1; 
-  object-fit: contain;
-}
-
-.plant-img {
-  position: absolute;
-  width: 90px;
-  left: 70px;
-  bottom: 50px;
-  z-index: 3;
-  object-fit: contain;
-}
-
-.luggage-img {
-  position: absolute;
-  width: 120px;
-  right: 110px;
-  bottom: 55px;
-  z-index: 4;
-  object-fit: contain;
-}
-
-.person-img {
-  position: absolute;
-  width: 220px;
-  right: 110px;
-  bottom: 60px;
-  z-index: 5;
-  object-fit: contain;
+  right: 95px;
+  bottom: 10px;
+  width: 390px;
+  z-index: 2;
 }
 .brands {
   margin-top: 45px;
