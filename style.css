@@ -309,59 +309,178 @@ filter: grayscale(100%);
 .bottom-right {
   justify-self: start;
 }
-@media (max-width: 1200px) {
-  .hero-text h1 {
-    font-size: 48px;
-  }
-
-  .hero-text {
-    padding-left: 20px;
-  }
-
-  .plane-img {
-    width: 360px;
-  }
-
-  .person-img {
-    width: 190px;
-  }
-
-  .luggage-img {
-    width: 100px;
-  }
+.relocated {
+  width: 100%;
+  background: #f7f7f5;
+  padding: 40px 110px 20px;
+  position: relative;
 }
 
-@media (max-width: 992px) {
-  .navbar {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.relocated-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
 
-  .hero-content {
-    flex-direction: column;
-  }
+.relocated-title h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  color: #2f2f39;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
 
-  .hero-text,
-  .hero-image-area {
-    width: 100%;
-  }
+.relocated-title p {
+  font-size: 14px;
+  color: #8b8b8f;
+}
 
-  .hero-text {
-    text-align: center;
-    padding-left: 0;
-  }
+.career-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  position: relative;
+}
 
-  .circle-bg {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+.arrow {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #b8b8b8;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  flex-shrink: 0;
+}
 
-  .hero-buttons {
-    justify-content: center;
-  }
+.career-card {
+  width: 120px;
+  text-align: center;
+}
 
-  .brands {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
+.career-card img {
+  width: 120px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.career-card span {
+  font-size: 11px;
+  color: #9a9a9f;
+}
+
+.career-card.active span {
+  color: #66b98a;
+}
+
+.career-card.faded {
+  opacity: 0.35;
+}
+
+.slider-dot {
+  width: 8px;
+  height: 8px;
+  background: #d7d7d7;
+  border-radius: 50%;
+  margin: 12px auto 0;
+}
+.visa-case {
+  width: 100%;
+  background: #f7f7f5;
+  padding: 30px 110px 80px;
+  position: relative;
+}
+
+.visa-header {
+  margin-bottom: 35px;
+}
+
+.visa-header h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2f2f39;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.visa-header p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #7d7d83;
+  max-width: 700px;
+}
+
+.price-cards {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.price-card {
+  background: #fbfbfa;
+  border-radius: 14px;
+  padding: 28px 22px 22px;
+  width: 100%;
+  max-width: 470px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.price-card h3 {
+  font-size: 42px;
+  color: #2c2c36;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.step-number {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f2b282;
+  color: white;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.step p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #7b7b81;
+}
+
+.price-card small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.8;
+  color: #9a9a9f;
+  margin-top: 10px;
+}
+
+.choose-btn {
+  display: inline-block;
+  margin-top: 22px;
+  text-decoration: none;
+  background: #61b887;
+  color: white;
+  padding: 13px 30px;
+  border-radius: 26px;
+  font-size: 13px;
+  min-width: 70px;
+  text-align: center;
 }
