@@ -866,5 +866,597 @@ filter: grayscale(100%);
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero,
+  .immigration,
+  .relocated,
+  .visa-case,
+  .platform,
+  .testimonials-section,
+  .faq-section,
+  .footer {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .hero {
+    min-height: auto;
+    padding-top: 14px;
+    padding-bottom: 24px;
+  }
 
+  .navbar {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .top-btn {
+    font-size: 10px;
+    padding: 10px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right {
+    order: 1;
+    height: 250px;
+    position: relative;
+  }
+
+  .left {
+    order: 2;
+    padding-left: 0;
+    padding-top: 0;
+    text-align: left;
+  }
+
+  .bg-circle {
+    width: 85px;
+    height: 85px;
+    top: -8px;
+    left: 2px;
+  }
+
+  .left h1 {
+    font-size: 28px;
+    line-height: 1.12;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .left-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .main-btn {
+    font-size: 11px;
+    padding: 12px 20px;
+    border-radius: 24px;
+  }
+
+  .small-text {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .plane-bg {
+    width: 360px;
+    right: -55px;
+    top: -8px;
+  }
+
+  .traveler-img {
+    width: 180px;
+    right: 35px;
+    bottom: 0;
+  }
+
+  .brands {
+    margin-top: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    font-size: 10px;
+    opacity: 0.8;
+  }
+
+  .brands span {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 8px 4px;
+  }
+  .immigration {
+    padding-top: 28px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .immigration-header {
+    margin-bottom: 20px;
+  }
+
+  .immigration-header h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .immigration-header p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .immigration-grid {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    column-gap: 0;
+  }
+
+  .info-block h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .info-block p {
+    font-size: 11px;
+    line-height: 1.7;
+    max-width: 100%;
+  }
+
+  .top-left,
+  .middle-right,
+  .bottom-left {
+    padding: 0;
+  }
+
+  .image-block {
+    width: 100%;
+  }
+
+  .image-block img {
+    width: 100%;
+    max-width: 230px;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .top-right,
+  .middle-left,
+  .bottom-right {
+    justify-self: start;
+  }
+
+  .circle {
+    width: 78px;
+    height: 78px;
+  }
+
+  .circle-1 {
+    top: -18px;
+    right: -14px;
+  }
+
+  .circle-2 {
+    left: -14px;
+    bottom: -12px;
+  }
+
+  .circle-3 {
+    right: -14px;
+    bottom: -14px;
+  }
+  .relocated {
+    padding-top: 22px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .relocated-title {
+    margin-bottom: 16px;
+  }
+
+  .relocated-title h2 {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 8px;
+  }
+
+  .relocated-title p {
+    font-size: 11px;
+  }
+
+  .career-slider {
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .career-card {
+    width: 92px;
+    flex-shrink: 0;
+  }
+
+  .career-card img {
+    width: 92px;
+    height: 112px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+  }
+
+  .career-card span {
+    font-size: 8px;
+  }
+
+  .arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .slider-dot {
+    width: 6px;
+    height: 6px;
+    margin-top: 8px;
+  }
+  .visa-case {
+    padding-top: 10px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .visa-header {
+    margin-bottom: 18px;
+  }
+
+  .visa-header h2 {
+    font-size: 28px;
+    line-height: 1.15;
+    margin-bottom: 8px;
+  }
+
+  .visa-header p {
+    font-size: 11px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  .price-cards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .price-card {
+    max-width: 100%;
+    border-radius: 14px;
+    padding: 18px 14px 16px;
+  }
+
+  .price-card h3 {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+
+  .step {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .step-number {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  .step p {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .price-card small {
+    font-size: 8px;
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+
+  .choose-btn {
+    margin-top: 14px;
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 12px;
+    border-radius: 24px;
+  }
+  .platform {
+    padding-top: 28px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .platform-top {
+    margin-bottom: 14px;
+  }
+
+  .platform-text h2 {
+    font-size: 27px;
+    line-height: 1.15;
+    margin-bottom: 14px;
+    max-width: 240px;
+  }
+
+  .platform-text h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .platform-text p {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .platform-tags {
+    gap: 6px;
+  }
+
+  .platform-tags span {
+    font-size: 9px;
+    padding: 6px 10px;
+    border-radius: 14px;
+  }
+
+  .platform-image-wrap {
+    margin-bottom: 22px;
+  }
+
+  .platform-image {
+    width: 100%;
+    border-radius: 14px;
+  }
+
+  .platform-bottom h2 {
+    font-size: 28px;
+    line-height: 1.15;
+    max-width: 240px;
+    margin: 0 auto 8px;
+  }
+
+  .platform-bottom p {
+    font-size: 11px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .platform-btn {
+    font-size: 11px;
+    padding: 12px 20px;
+    border-radius: 24px;
+  }
+  .testimonials-section {
+    padding-top: 24px !important;
+    padding-bottom: 28px !important;
+  }
+
+  .testimonials-top {
+    margin-bottom: 24px;
+  }
+
+  .testimonials-top h2 {
+    font-size: 28px;
+    line-height: 1.15;
+    max-width: 250px;
+    margin: 0 auto 8px;
+  }
+
+  .testimonials-top p {
+    font-size: 11px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .test-btn {
+    font-size: 11px;
+    padding: 12px 20px;
+    border-radius: 24px;
+  }
+
+  .testimonials-title {
+    margin-bottom: 12px;
+  }
+
+  .testimonials-title h2 {
+    font-size: 24px;
+  }
+
+  .testimonials-wrapper {
+    gap: 8px;
+    align-items: center;
+  }
+
+  .test-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .testimonial-card {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .testimonial-card::after {
+    width: 130px;
+    height: 130px;
+    right: -35px;
+    top: 15px;
+    border-width: 22px;
+  }
+
+  .person-box {
+    width: 100%;
+    padding: 14px 10px;
+    border-radius: 10px;
+  }
+
+  .person-photo {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 10px;
+  }
+
+  .person-box h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .person-tags span,
+  .person-role span {
+    font-size: 9px;
+    padding: 6px 8px;
+  }
+
+  .main-text {
+    font-size: 11px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+
+  .testimonial-text {
+    padding: 0;
+  }
+
+  .testimonial-text .small-text {
+    font-size: 9px;
+    line-height: 1.8;
+    max-width: 100%;
+  }
+
+  .quote-mark {
+    right: 2px;
+    bottom: -10px;
+    font-size: 48px;
+  }
+
+  .test-dot {
+    width: 6px;
+    height: 6px;
+    margin-top: 8px;
+  }
+  .faq-section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .faq-container h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .faq-item {
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .faq-question {
+    min-height: 48px;
+    padding: 0 14px;
+    font-size: 11px;
+  }
+
+  .faq-icon {
+    font-size: 12px;
+  }
+
+  .faq-answer {
+    padding: 0 14px 14px;
+  }
+
+  .faq-answer p,
+  .faq-answer li {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+
+  .faq-answer ul {
+    padding-left: 16px;
+  }
+
+  .footer {
+    padding-top: 10px !important;
+    padding-bottom: 26px !important;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 20px 16px;
+    border-radius: 14px;
+  }
+
+  .footer-logo {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer-logo-block p,
+  .footer-column p,
+  .footer-column a {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+
+  .footer-column h4 {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .footer-column {
+    gap: 4px;
+  }
+
+  .socials {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .socials span {
+    width: 24px;
+    height: 24px;
+    font-size: 9px;
+  }
+
+  .scroll-top {
+    width: 26px;
+    height: 26px;
+    right: 10px;
+    bottom: 18px;
+    font-size: 12px;
+  }
+}
 
