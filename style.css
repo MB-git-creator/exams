@@ -174,7 +174,6 @@ align-items:center;
 margin-top:40px;
 
 padding:15px 40px;
-background-color: white;
 
 border-radius:8px;
 
@@ -189,8 +188,6 @@ display:flex;
 
 align-items:center;
 
-gap:8px;
-
 font-size:14px;
 
 color:#777;
@@ -200,9 +197,9 @@ color:#777;
 
 .company img{
 
-width:80px;
+width:120px;
 
-height:80px;
+height:100px;
 
 object-fit:contain;
 
