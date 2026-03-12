@@ -206,6 +206,109 @@ object-fit:contain;
 filter: grayscale(100%);
 
 }
+.immigration {
+  width: 100%;
+  background: #f7f7f5;
+  padding: 70px 110px 50px;
+}
+
+.immigration-header {
+  margin-bottom: 50px;
+}
+
+.immigration-header h2 {
+  font-size: 44px;
+  color: #2d2d37;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.immigration-header p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #6f6f76;
+}
+
+.immigration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 35px;
+  align-items: center;
+}
+.info-block h3 {
+  font-size: 19px;
+  color: #222;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.info-block p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #6f6f76;
+  max-width: 360px;
+}
+.image-block {
+  position: relative;
+  width: fit-content;
+}
+
+.image-block img {
+  width: 300px;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+.circle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #efefef;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-1 {
+  top: -40px;
+  right: -35px;
+}
+
+.circle-2 {
+  left: -35px;
+  bottom: -30px;
+}
+
+.circle-3 {
+  right: -35px;
+  bottom: -35px;
+}
+.top-left {
+  padding-top: 10px;
+}
+
+.top-right {
+  justify-self: start;
+}
+
+.middle-left {
+  justify-self: start;
+}
+
+.middle-right {
+  padding-left: 10px;
+}
+
+.bottom-left {
+  padding-top: 10px;
+}
+
+.bottom-right {
+  justify-self: start;
+}
 @media (max-width: 1200px) {
   .hero-text h1 {
     font-size: 48px;
